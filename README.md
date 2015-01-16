@@ -41,7 +41,7 @@ The default database credentials for Flow are:
 
 ## Check the status
 
-    `bin/fig ps`
+    `bin/dockerflow ps`
 
 This will show the running containers. The `data` container can be inactive to work.
 
