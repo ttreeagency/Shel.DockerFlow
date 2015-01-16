@@ -72,6 +72,15 @@ Add this setting to your Flow `Settings.yaml`
         utility:
           environment:
             temporaryDirectoryBase: /tmp/dockerflow/Temporary/
+            
+## Using boot2docker on mac
+
+1. Install [Vagrant](https://www.vagrantup.com/)
+1. Copy the Vagrantfile you find in this package to your project root or Workspace if you want to run more than one project.
+2. Change the IP address
+3. Put these lines into your `.profile`/`.bash_profile`/`.zshrc` and change the ip address if necessary:
+    export DOCKER_HOST=tcp://192.168.33.10:2375
+    export DOCKER_TLS_VERIFY=
 
 ## Check open ports in a container
 
