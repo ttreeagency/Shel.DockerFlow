@@ -19,7 +19,7 @@ RUN apt-get install sendmail -y
 RUN echo "Y\nY\nY\n" | sendmailconfig
 
 # Create user for volume access (Needed for Mac OS)
-RUN (adduser --system --uid=1000 --gid=50 \
+RUN (adduser --system --uid=1001 --gid=50 \
         --home /home/guest --shell /bin/bash guest)
 
 # Copy configuration files for php

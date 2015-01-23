@@ -1,7 +1,7 @@
 app:
   # For development of the image comment out the 'image' line and replace with the next line
-  # build: Packages/Libraries/shel/dockerflow/
-  image: sebobo/shel.dockerflow
+  build: Packages/Libraries/shel/dockerflow/
+  # image: sebobo/shel.dockerflow
   hostname: dockerflow
   domainname: dockerflow
   volumes_from:
